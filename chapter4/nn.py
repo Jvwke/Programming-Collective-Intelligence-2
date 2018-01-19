@@ -2,7 +2,7 @@ from math import tanh
 import sqlite3
 
 def dtanh(y):
-		return 1.0 - y * y
+	return 1.0 - y * y
 
 class searchnet(object):
 	def __init__(self, dbname):
